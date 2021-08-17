@@ -1,0 +1,1 @@
+{ "headers": {"Accept":"application/json","Content-Type":"application/json", "sessionId":"${session.id}"},"data":{"page":[{"component":"header"},{"component":"footer"},{"component":"productDetail"}, {"component": "otherProducts"}, {"component": "bestDealProducts"}],"params":{"hierarchyLevel":2,"customerGroup": 1,"prodType": ${params.productType},"id":${params.productId}}}}

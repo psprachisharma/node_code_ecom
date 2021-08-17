@@ -1,0 +1,4 @@
+clear
+export env=development
+export DEBUG=glassapp:* 
+npm start

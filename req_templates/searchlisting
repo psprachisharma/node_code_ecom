@@ -1,0 +1,1 @@
+{"headers":{"Content-Type":"application/json"},"data":{"page":[{"component":"header"},{"component":"footer"},{"component":"productListing"}],"params":{"hierarchyLevel": 2,"sortingField":"sellingprice","sortingOrder":"asc","filters":{},"start":0,"rows":12,"searchText":"${params.searchText}"}}}

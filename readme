@@ -1,0 +1,24 @@
+install node first
+
+go to this folder and type the following;
+$ npm install
+
+$npm install react
+$npm install express-react-views
+# $npm install express-generator
+The above is only required for generating this application.
+
+npm install passport
+npm install passport-openid
+npm install express-session
+npm install passport-local
+npm install passport-forcedotcom
+npm install connect-redis
+npm install node-redis
+npm install bcryptjs
+npm install express-debug
+npm install connect-ensure-login
+npm install passport-remember-me
+// npm install string-template
+npm install es6-template-strings
+

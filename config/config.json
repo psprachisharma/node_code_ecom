@@ -1,0 +1,53 @@
+{
+		"config": [
+                 	{
+						"url": "/productdetail/:productName/:productId/:productType",
+						"dataUrl": "http://${Constants.core_server_host_port}/api/aggregator/getcomponents",
+						"view": "productdetail", 
+						"controller": "productDetailPage",
+						"reqTemplateUrl": "${Constants.request_templates_path}/products",
+						"secure": false
+				},
+               {
+						"url": "/",
+						"dataUrl": "http://${Constants.core_server_host_port}/api/aggregator/getcomponents",
+						"view": "index", 
+						"controller": "index",
+            			"reqTemplateUrl": "${Constants.request_templates_path}/home",
+                        "secure": false
+				},
+                {
+						"url": "/category/:categoryName/:categoryId",
+						"dataUrl": "http://${Constants.core_server_host_port}/api/aggregator/getcomponents",
+						"view": "categorylanding", 
+						"controller": "categorylanding",
+                       "reqTemplateUrl": "${Constants.request_templates_path}/productlisting",
+                        "secure": false
+				},
+				{
+						"url": "/searchlisting/:searchText",
+						"dataUrl": "http://${Constants.core_server_host_port}/api/aggregator/getcomponents",
+						"view": "searchlisting", 
+						"controller": "searchlisting",
+                       "reqTemplateUrl": "${Constants.request_templates_path}/searchlisting",
+                        "secure": false
+				},
+                {
+						"url": "/thankyou/:cartId",
+						"dataUrl": "http://${Constants.core_server_host_port}/api/aggregator/getcomponents",
+						"view": "thankyou", 
+						"controller": "thankyou",
+                       	"reqTemplateUrl": "${Constants.request_templates_path}/thankyou",
+                        "secure": false
+				},
+                {
+						"url": "/checkout",
+						"dataUrl": "http://${Constants.core_server_host_port}/api/aggregator/getcomponents",
+						"view": "checkout", 
+						"controller": "checkout",
+                       	"reqTemplateUrl": "${Constants.request_templates_path}/checkout",
+                        "secure": false
+				}
+		
+	]
+}
